@@ -10,6 +10,7 @@ import UIKit
 
 class FinalViewController: UIViewController {
 
+    @IBOutlet weak var try_UIButton: UIButton!
     @IBOutlet weak var Got_UILabel: UILabel!
     @IBOutlet weak var answers_UILbel: UILabel!
     @IBOutlet weak var count_UILabel: UILabel!
@@ -42,6 +43,7 @@ class FinalViewController: UIViewController {
             self.count_UILabel.alpha = 1
             self.Got_UILabel.alpha = 1
             self.answers_UILbel.alpha = 1
+            self.try_UIButton.alpha = 1
         }
 
 

@@ -827,7 +827,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQM-yy-x7z">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQM-yy-x7z">
                                 <rect key="frame" x="133" y="682" width="149" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="32"/>
@@ -848,11 +848,12 @@
                         <outlet property="count_UILabel" destination="q5g-mO-Hih" id="ilm-Hp-Zqn"/>
                         <outlet property="q_img_UILabel" destination="NGt-Ae-27i" id="63M-7W-RWL"/>
                         <outlet property="qaUIProgressView" destination="C9Z-Jz-JSq" id="Yma-nu-KuO"/>
+                        <outlet property="try_UIButton" destination="PQM-yy-x7z" id="4NG-2V-wUk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9MH-Vm-sH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3374" y="113"/>
+            <point key="canvasLocation" x="3445" y="113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gzr-Jm-rsv">
